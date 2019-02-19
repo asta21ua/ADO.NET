@@ -23,8 +23,8 @@ namespace ADO.NET_database_connection_Using
                 Console.WriteLine("Connecton is Open");
             }
             Console.WriteLine("Connection is Closed");
-
-            Console.ReadLine(); 
+            
+Console.ReadLine(); 
         }
     }
 }
