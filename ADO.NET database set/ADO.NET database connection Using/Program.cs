@@ -15,7 +15,7 @@ namespace ADO.NET_database_connection_Using
         {
             // connecting local DataBase with USING to close Automatically 
 
-            String connectionString = @"Data Source = .\SQLEXPRESS; Initial Catalog = userdb; Integrated Source= True";
+            string connectionString = @"Data Source = .\SQLEXPRESS; Initial Catalog = userdb; Integrated Source= True";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -23,8 +23,9 @@ namespace ADO.NET_database_connection_Using
                 Console.WriteLine("Connecton is Open");
             }
             Console.WriteLine("Connection is Closed");
-            
-Console.ReadLine(); 
+
+            Console.ReadLine();
         }
+
     }
 }
